@@ -1,0 +1,45 @@
+body {
+    background: #c1c1c1;
+}
+
+
+.container {
+    margin: 0 auto;
+    padding-top: 50px;
+}
+
+
+.todo-list {
+  max-width: 400px;
+  display: block;
+  margin: 0 auto 40px;
+  background-color: #1BA39C;
+  padding: 30px;
+  border-radius: 10px;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 20px;
+    color: #fff;
+    font-size: 30px;
+}
+.create-todo {
+    text-align: center;
+}
+
+.todo {
+    padding-left: 0; 
+}
+
+button {
+    margin-top: 10px;
+    width: 400px;
+    padding: 10px;
+    cursor: pointer; 
+}
+.important {
+    font-weight: bold;
+    color: #A40E11; 
+}
