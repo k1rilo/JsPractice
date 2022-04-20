@@ -40,7 +40,7 @@ todo.addEventListener('change', function(event){
     let valuelabel = todo.querySelector('[for='+ event.target.getAttribute('id') +']').innerHTML; 
 
     todolist.forEach(function(item){
-        if(item.todo === valueLabel){
+        if(item.todo === valuelabel){
             item.checked = !item.checked
             localStorage. setItem('todo', JSON.stringify(todolist));
         }
